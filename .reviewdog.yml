@@ -1,5 +1,5 @@
 runner:
   eslint:
-    cmd: ./node_modules/.bin/eslint -c ./eslintrc.json .
+    cmd: ./node_modules/.bin/eslint .
   rubocop:
     cmd: bundle exec rubocop
